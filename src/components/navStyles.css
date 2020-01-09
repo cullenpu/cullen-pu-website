@@ -1,0 +1,9 @@
+.navbar {
+    height: 3.5em;
+}
+
+.nav-item {
+    margin: 0 0.3em;
+    padding-top: 1.25em;
+    font-size: 1.1em;
+}

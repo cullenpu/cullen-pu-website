@@ -1,3 +1,7 @@
+.App {
+    font-weight: 300;
+}
+
 .container {
-    padding: 5% 15%;
+    padding: 2.5% 15%;
 }

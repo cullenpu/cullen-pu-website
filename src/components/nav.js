@@ -1,14 +1,17 @@
 import React, { Component } from "react";
-import { Link } from "react-scroll";
+import { Link, animateScroll } from "react-scroll";
+
+import "./navStyles.css";
 
 class Nav extends Component {
+  scrollToTop = () => {
+    animateScroll.scrollToTop({ duration: 300 });
+  };
+
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a className="navbar-brand" href="#">
-            Home
-          </a>
+        <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
           <button
             class="navbar-toggler"
             type="button"
@@ -18,20 +21,23 @@ class Nav extends Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <div className="navbar-nav ml-auto">
+              <a className="nav-item nav-link" onClick={this.scrollToTop}>
+                <p>home</p>
+              </a>
               <Link
                 className="nav-item nav-link"
                 activeClass="active"
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={0}
-                duration={500}
+                offset={-56}
+                duration={300}
               >
-                About
+                <p>about</p>
               </Link>
               <Link
                 className="nav-item nav-link"
@@ -39,10 +45,10 @@ class Nav extends Component {
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={0}
-                duration={500}
+                offset={-56}
+                duration={300}
               >
-                Projects
+                <p>projects</p>
               </Link>
               <Link
                 className="nav-item nav-link"
@@ -50,21 +56,22 @@ class Nav extends Component {
                 to="resume"
                 spy={true}
                 smooth={true}
-                offset={0}
-                duration={500}
+                offset={-56}
+                duration={300}
               >
-                Resume
+                <p>resume</p>
               </Link>
               <a
-                className="nav-item nav-link"
                 href="https://cullenpu.myportfolio.com"
+                className="nav-item nav-link"
                 target="_blank"
               >
-                Gallery
+                <p>gallery</p>
               </a>
             </div>
           </div>
         </nav>
+        {this.props.children}
       </div>
     );
   }

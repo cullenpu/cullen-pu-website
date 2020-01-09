@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import "./styles.css";
+
 class About extends Component {
   render() {
     return (
@@ -15,65 +17,107 @@ class About extends Component {
                 <div className="carousel-item active">
                   <img
                     className="d-block w-100"
-                    src={require("../images/image1.jpg")}
+                    src={require("../images/portraits/image1.jpg")}
                     alt="Image 1"
                   />
+                  <div className="carousel-caption text-secondary">
+                    <p className="photo-cred">
+                      Photo taken by Cody Tu. Check out his work{" "}
+                      <a href="https://codytu.com/" target="_blank">
+                        here
+                      </a>
+                      .
+                    </p>
+                  </div>
                 </div>
                 <div className="carousel-item">
                   <img
                     className="d-block w-100"
-                    src={require("../images/image2.jpg")}
+                    src={require("../images/portraits/image2.jpg")}
                     alt="Image 1"
                   />
+                  <div className="carousel-caption text-secondary">
+                    <p className="photo-cred">
+                      Photo taken by Cody Tu. Check out his work{" "}
+                      <a href="https://codytu.com/" target="_blank">
+                        here
+                      </a>
+                      .
+                    </p>
+                  </div>
                 </div>
                 <div className="carousel-item">
                   <img
                     className="d-block w-100"
-                    src={require("../images/image3.jpg")}
+                    src={require("../images/portraits/image3.jpg")}
                     alt="Image 1"
                   />
+                  <div className="carousel-caption text-secondary">
+                    <p className="photo-cred">
+                      Photo taken by Cody Tu. Check out his work{" "}
+                      <a href="https://codytu.com/" target="_blank">
+                        here
+                      </a>
+                      .
+                    </p>
+                  </div>
                 </div>
                 <div className="carousel-item">
                   <img
                     className="d-block w-100"
-                    src={require("../images/image4.jpg")}
+                    src={require("../images/portraits/image4.jpg")}
                     alt="Image 1"
                   />
+                  <div className="carousel-caption text-secondary">
+                    <p className="photo-cred">
+                      Photo taken by Mareck Damiano. Check out his work{" "}
+                      <a
+                        href="https://www.instagram.com/mareckd/"
+                        target="_blank"
+                      >
+                        here
+                      </a>
+                      .
+                    </p>
+                  </div>
                 </div>
               </div>
               <a
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 href="#portraits"
                 role="button"
                 data-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  className="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="sr-only">Previous</span>
+                <span className="sr-only">Previous</span>
               </a>
               <a
-                class="carousel-control-next"
+                className="carousel-control-next"
                 href="#portraits"
                 role="button"
                 data-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  className="carousel-control-next-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="sr-only">Next</span>
+                <span className="sr-only">Next</span>
               </a>
             </div>
           </div>
           <div className="col-md-6">
-            <h1>
-              Hello! <br /> I'm Cullen.
-            </h1>
-            <p>
-              I am currently a second year student at the University of Toronto
-              dual majoring in computer science and statistics.
+            <h1 className="text-center">about</h1>
+            <p className="about-me">
+              I am a second year computer science and statistics student
+              currently attending the University of Toronto, previously from
+              Boston.
+              <br />
+              <br />I have a diverse collection of interests which include boba,
+              clothing, and photography - feel free to check out my photography
+              portfolio linked above!
             </p>
           </div>
         </div>
