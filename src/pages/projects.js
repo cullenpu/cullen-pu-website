@@ -6,11 +6,11 @@ class Projects extends Component {
       <div className="container" id="projects">
         <h1 className="text-center">projects</h1>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md">
             <div className="card">
               <img
                 className="card-img-top"
-                src={require("../images/projects/politician-simulator.png")}
+                src={require("../resources/projects/politician-simulator.png")}
                 alt="Politic Game"
               />
               <div className="card-body bg-secondary text-white">
@@ -37,11 +37,11 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md">
             <div className="card">
               <img
                 className="card-img-top"
-                src={require("../images/projects/meal-prep-4-U.png")}
+                src={require("../resources/projects/meal-prep-4-U.png")}
                 alt="Meal Prep 4 U"
               />
               <div className="card-body bg-secondary text-white">

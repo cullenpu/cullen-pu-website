@@ -50,7 +50,7 @@ class Nav extends Component {
               >
                 <p>projects</p>
               </Link>
-              <Link
+              {/* <Link
                 className="nav-item nav-link"
                 activeClass="active"
                 to="resume"
@@ -60,7 +60,14 @@ class Nav extends Component {
                 duration={300}
               >
                 <p>resume</p>
-              </Link>
+              </Link> */}
+              <a
+                href={require("../resources/resume/Resume (Toronto).pdf")}
+                className="nav-item nav-link"
+                target="_blank"
+              >
+                resume
+              </a>
               <a
                 href="https://cullenpu.myportfolio.com"
                 className="nav-item nav-link"

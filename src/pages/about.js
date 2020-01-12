@@ -7,7 +7,7 @@ class About extends Component {
     return (
       <div className="container" id="about">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md">
             <div
               id="portraits"
               className="carousel slide carousel-fade"
@@ -17,7 +17,7 @@ class About extends Component {
                 <div className="carousel-item active">
                   <img
                     className="d-block w-100"
-                    src={require("../images/portraits/image1.jpg")}
+                    src={require("../resources/portraits/image1.jpg")}
                     alt="Image 1"
                   />
                   <div className="carousel-caption text-secondary">
@@ -33,7 +33,7 @@ class About extends Component {
                 <div className="carousel-item">
                   <img
                     className="d-block w-100"
-                    src={require("../images/portraits/image2.jpg")}
+                    src={require("../resources/portraits/image2.jpg")}
                     alt="Image 1"
                   />
                   <div className="carousel-caption text-secondary">
@@ -49,7 +49,7 @@ class About extends Component {
                 <div className="carousel-item">
                   <img
                     className="d-block w-100"
-                    src={require("../images/portraits/image3.jpg")}
+                    src={require("../resources/portraits/image3.jpg")}
                     alt="Image 1"
                   />
                   <div className="carousel-caption text-secondary">
@@ -65,7 +65,7 @@ class About extends Component {
                 <div className="carousel-item">
                   <img
                     className="d-block w-100"
-                    src={require("../images/portraits/image4.jpg")}
+                    src={require("../resources/portraits/image4.jpg")}
                     alt="Image 1"
                   />
                   <div className="carousel-caption text-secondary">
@@ -108,7 +108,7 @@ class About extends Component {
               </a>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md">
             <h1 className="text-center">about</h1>
             <p className="about-me">
               I am a second year computer science and statistics student

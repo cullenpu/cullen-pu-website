@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, animateScroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 import "./styles.css";
 
@@ -8,9 +8,14 @@ class Home extends Component {
     return (
       <div className="jumbotron-fluid bg-dark" id="home">
         <div className="container text-center">
-          <h1 className="text-monospace text-light display-3 greeting">
-            hi, i'm cullen!
-          </h1>
+          <div className="greeting">
+            <h1 className="text-monospace text-light display-3">
+              hi, i'm cullen!
+            </h1>
+            <h5 className="text-monospace text-light">
+              i'm a student, software dev, photographer
+            </h5>
+          </div>
           <Link
             className="btn btn-outline-light text-monospace text-light"
             // activeClass="active"
@@ -22,6 +27,23 @@ class Home extends Component {
           >
             view my work
           </Link>
+          <div className="row links">
+            <div className="col-sm">
+              <a href="https://www.linkedin.com/in/cullenpu/" target="_blank">
+                <i class="fab fa-linkedin fa-2x text-light"></i>
+              </a>
+            </div>
+            <div className="col-sm">
+              <a href="https://github.com/Cullenpu/" target="_blank">
+                <i className="fab fa-github fa-2x text-light"></i>
+              </a>
+            </div>
+            <div className="col-sm">
+              <a href="https://instagram.com/cpviews/" target="_blank">
+                <i class="fab fa-instagram fa-2x text-light"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     );

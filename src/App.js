@@ -10,14 +10,11 @@ import Resume from "./pages/resume";
 function App() {
   return (
     <div className="App bg-light text-dark">
-      <header>
         <Home />
         <Nav>
           <About />
           <Projects />
-          <Resume />
         </Nav>
-      </header>
     </div>
   );
 }

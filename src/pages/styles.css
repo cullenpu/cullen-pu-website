@@ -3,7 +3,20 @@
 }
 
 .greeting {
-  padding: 25vh 0 2vh 0;
+  padding: 25vh 0 3vh 0;
+}
+
+.links {
+  padding: 0 35%;
+  margin-top: 25vh;
+}
+
+.fab {
+  transition: 0.2s;
+}
+
+.fab:hover {
+  color: rgb(149, 149, 149) !important;
 }
 
 #about {
