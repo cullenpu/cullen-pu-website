@@ -8,7 +8,7 @@ import Projects from "./pages/projects";
 
 function App() {
   return (
-    <div className="App bg-light text-dark">
+    <div className="App text-dark">
         <Home />
         <Nav>
           <About />

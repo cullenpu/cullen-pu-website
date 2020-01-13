@@ -11,9 +11,9 @@ class Nav extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark py-0">
           <button
-            class="navbar-toggler"
+            class="navbar-toggler my-1"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
@@ -50,17 +50,6 @@ class Nav extends Component {
               >
                 <p>projects</p>
               </Link>
-              {/* <Link
-                className="nav-item nav-link"
-                activeClass="active"
-                to="resume"
-                spy={true}
-                smooth={true}
-                offset={-56}
-                duration={300}
-              >
-                <p>resume</p>
-              </Link> */}
               <a
                 href={require("../resources/resume/Resume (Toronto).pdf")}
                 className="nav-item nav-link"

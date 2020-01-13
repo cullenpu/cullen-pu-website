@@ -10,7 +10,7 @@ class Projects extends Component {
             <div className="card">
               <img
                 className="card-img-top"
-                src={require("../resources/projects/politician-simulator.png")}
+                src={require("../resources/projects/politic-game.jpg")}
                 alt="Politic Game"
               />
               <div className="card-body bg-secondary text-white">
@@ -19,12 +19,9 @@ class Projects extends Component {
                 </div>
                 <div className="card-text">
                   <p>
-                    A humorous politician simulator consisting of three
-                    minigames. The first minigame has the user attempt to please
-                    a needy baby. The second minigame requires the user to type
-                    the correct politics-based keyword based on a given
-                    description. The final minigame has the user approve or
-                    disprove bills.
+                    An Android application consisting of three minigames meant
+                    to serve as a satirical politician simulator with support
+                    for user login, leaderboards, and unlockable sprites.
                   </p>
                   <a
                     href="https://github.com/Cullenpu/politic-game"

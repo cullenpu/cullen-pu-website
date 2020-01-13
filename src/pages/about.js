@@ -18,7 +18,6 @@ class About extends Component {
                   <img
                     className="d-block w-100"
                     src={require("../resources/portraits/image1.jpg")}
-                    alt="Image 1"
                   />
                   <div className="carousel-caption text-secondary">
                     <p className="photo-cred">
@@ -34,7 +33,6 @@ class About extends Component {
                   <img
                     className="d-block w-100"
                     src={require("../resources/portraits/image2.jpg")}
-                    alt="Image 1"
                   />
                   <div className="carousel-caption text-secondary">
                     <p className="photo-cred">
@@ -50,7 +48,6 @@ class About extends Component {
                   <img
                     className="d-block w-100"
                     src={require("../resources/portraits/image3.jpg")}
-                    alt="Image 1"
                   />
                   <div className="carousel-caption text-secondary">
                     <p className="photo-cred">
@@ -66,7 +63,6 @@ class About extends Component {
                   <img
                     className="d-block w-100"
                     src={require("../resources/portraits/image4.jpg")}
-                    alt="Image 1"
                   />
                   <div className="carousel-caption text-secondary">
                     <p className="photo-cred">
@@ -112,8 +108,12 @@ class About extends Component {
             <h1 className="text-center">about</h1>
             <p className="about-me">
               I am a second year computer science and statistics student
-              currently attending the University of Toronto, previously from
-              Boston.
+              attending the University of Toronto, previously from Boston.
+              <br />
+              <br />
+              This summer, I wrote code for LLX Solutions, a pharmaceutical
+              company in Waltham, Massachusetts. I also serve as a Department of
+              Computer Science Ambassador at the University of Toronto.
               <br />
               <br />I have a diverse collection of interests which include boba,
               clothing, and photography - feel free to check out my photography
