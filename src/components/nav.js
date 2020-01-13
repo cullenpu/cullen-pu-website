@@ -13,7 +13,7 @@ class Nav extends Component {
       <div>
         <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark py-0">
           <button
-            class="navbar-toggler my-1"
+            class="navbar-toggler my-2"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
