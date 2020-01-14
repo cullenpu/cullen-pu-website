@@ -51,7 +51,7 @@ class Nav extends Component {
                 <p>projects</p>
               </Link>
               <a
-                href={require("../resources/resume/Resume (Toronto).pdf")}
+                href={require("../resources/resume/Resume.pdf")}
                 className="nav-item nav-link"
                 target="_blank"
               >
