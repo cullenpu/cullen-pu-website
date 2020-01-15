@@ -1,5 +1,15 @@
+.navbar {
+  background-color: rgb(34, 34, 34);
+}
+
 .nav-item {
-  margin: 0 0.3em;
-  padding: 1em 0 0 0;
-  font-size: 1.1em;
+  margin: 0 0.3rem;
+  padding: 1rem 0 0 0;
+  font-size: 1.1rem;
+}
+
+.copyright {
+  margin: 0;
+  padding: 10vh 0 5vh 0;
+  color: rgb(136, 136, 136);
 }

@@ -10,8 +10,8 @@ class Nav extends Component {
 
   render() {
     return (
-      <div>
-        <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark py-0">
+      <div className="layout">
+        <nav className="navbar sticky-top navbar-expand-lg navbar-dark py-0">
           <button
             class="navbar-toggler my-2"
             type="button"
@@ -68,6 +68,7 @@ class Nav extends Component {
           </div>
         </nav>
         {this.props.children}
+        <p className="text-center copyright">made by cullen pu © 2020</p>
       </div>
     );
   }

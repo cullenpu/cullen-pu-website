@@ -1,3 +1,8 @@
+/* section headers */
+.section {
+  color: rgb(204, 204, 204);
+}
+
 /* home styles */
 .jumbotron-fluid {
   height: 100vh;
@@ -23,11 +28,11 @@
 
 .links {
   position: absolute;
+  margin: 0 0 0 2rem;
   bottom: 7.5vmin;
-  letter-spacing: 2em;
-  left: 0; 
-  right: 0; 
-  margin: auto; 
+  letter-spacing: 2rem;
+  left: 0;
+  right: 0;
 }
 
 i {
@@ -40,8 +45,6 @@ i {
 i:hover {
   color: rgb(149, 149, 149) !important;
 }
-
-
 
 /* about styles */
 #about {
@@ -58,7 +61,8 @@ i:hover {
 }
 
 .photo-cred {
-  font-size: 0.75em;
+  font-size: 0.75rem;
+  color: rgb(136, 136, 136);
 }
 
 .photo-cred a,
@@ -68,9 +72,25 @@ i:hover {
 }
 
 .about-me {
-  font-size: 1.25em;
+  font-size: 1.25rem;
+  color: rgb(204, 204, 204);
 }
 
-.btn {
-  margin-right: 1em;
+/* projects styles */
+.card {
+  border-color: rgb(34, 34, 34);
+}
+
+.card-body {
+  background-color: rgb(34, 34, 34);
+}
+
+.card-title,
+.card-text {
+  color: rgb(204, 204, 204);
+}
+
+.project-btn {
+  margin-right: 1rem;
+  color: rgb(204, 204, 204);
 }

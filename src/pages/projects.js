@@ -4,7 +4,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="container" id="projects">
-        <h1 className="text-center">projects</h1>
+        <h1 className="text-center section">projects</h1>
         <div className="row">
           <div className="col-md">
             <div className="card">
@@ -13,7 +13,7 @@ class Projects extends Component {
                 src={require("../resources/projects/politic-game.jpg")}
                 alt="Politic Game"
               />
-              <div className="card-body bg-secondary text-white">
+              <div className="card-body">
                 <div className="card-title">
                   <h5>Politic Game</h5>
                 </div>
@@ -25,7 +25,7 @@ class Projects extends Component {
                   </p>
                   <a
                     href="https://github.com/Cullenpu/politic-game"
-                    className="btn btn-outline-light btn-sm text-monospace"
+                    className="btn btn-outline-secondary btn-sm text-monospace project-btn"
                     target="_blank"
                   >
                     github
@@ -41,7 +41,7 @@ class Projects extends Component {
                 src={require("../resources/projects/meal-prep-4-U.png")}
                 alt="Meal Prep 4 U"
               />
-              <div className="card-body bg-secondary text-white">
+              <div className="card-body">
                 <div className="card-title">
                   <h5>Meal Prep 4 U</h5>
                 </div>
@@ -53,14 +53,14 @@ class Projects extends Component {
                   </p>
                   <a
                     href="https://github.com/Cullenpu/meal-prep-4-u"
-                    className="btn btn-outline-light btn-sm text-monospace"
+                    className="btn btn-outline-secondary btn-sm text-monospace project-btn"
                     target="_blank"
                   >
                     github
                   </a>
                   <a
                     href="https://devpost.com/software/meal-prep-4-u"
-                    className="btn btn-outline-light btn-sm text-monospace"
+                    className="btn btn-outline-secondary btn-sm text-monospace project-btn"
                     target="_blank"
                   >
                     devpost

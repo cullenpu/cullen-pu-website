@@ -9,11 +9,11 @@ import Projects from "./pages/projects";
 function App() {
   return (
     <div className="App text-dark">
-        <Home />
-        <Nav>
-          <About />
-          <Projects />
-        </Nav>
+      <Home />
+      <Nav>
+        <About />
+        <Projects />
+      </Nav>
     </div>
   );
 }

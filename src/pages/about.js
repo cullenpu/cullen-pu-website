@@ -19,7 +19,7 @@ class About extends Component {
                     className="d-block w-100"
                     src={require("../resources/portraits/image1.jpg")}
                   />
-                  <div className="carousel-caption text-secondary">
+                  <div className="carousel-caption">
                     <p className="photo-cred">
                       Photo taken by Cody Tu. Check out his work{" "}
                       <a href="https://codytu.com/" target="_blank">
@@ -34,7 +34,7 @@ class About extends Component {
                     className="d-block w-100"
                     src={require("../resources/portraits/image2.jpg")}
                   />
-                  <div className="carousel-caption text-secondary">
+                  <div className="carousel-caption">
                     <p className="photo-cred">
                       Photo taken by Cody Tu. Check out his work{" "}
                       <a href="https://codytu.com/" target="_blank">
@@ -49,7 +49,7 @@ class About extends Component {
                     className="d-block w-100"
                     src={require("../resources/portraits/image3.jpg")}
                   />
-                  <div className="carousel-caption text-secondary">
+                  <div className="carousel-caption">
                     <p className="photo-cred">
                       Photo taken by Cody Tu. Check out his work{" "}
                       <a href="https://codytu.com/" target="_blank">
@@ -64,7 +64,7 @@ class About extends Component {
                     className="d-block w-100"
                     src={require("../resources/portraits/image4.jpg")}
                   />
-                  <div className="carousel-caption text-secondary">
+                  <div className="carousel-caption">
                     <p className="photo-cred">
                       Photo taken by Mareck Damiano. Check out his work{" "}
                       <a
@@ -105,7 +105,7 @@ class About extends Component {
             </div>
           </div>
           <div className="col-md">
-            <h1 className="text-center">about</h1>
+            <h1 className="text-center section">about</h1>
             <p className="about-me">
               I am a second year computer science and statistics student
               attending the University of Toronto, previously from Boston.

@@ -28,13 +28,16 @@ class Home extends Component {
         </Link>
         <div className="links">
           <a href="https://www.linkedin.com/in/cullenpu/" target="_blank">
-            <i class="fab fa-linkedin text-light"></i>
+            <i className="fab fa-linkedin text-light"></i>
           </a>
           <a href="https://github.com/Cullenpu/" target="_blank">
             <i className="fab fa-github text-light"></i>
           </a>
           <a href="https://instagram.com/cpviews/" target="_blank">
-            <i class="fab fa-instagram text-light"></i>
+            <i className="fab fa-instagram text-light"></i>
+          </a>
+          <a href="mailto:cullepu@outlook.com" target="_blank">
+            <i className="fas fa-envelope text-light"></i>
           </a>
         </div>
       </div>
