@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab1845341ba40d54c4823b4d9d5068a6",
+    "revision": "c67e59a26db74b12dad4eedc2c882ede",
     "url": "/index.html"
   },
   {
-    "revision": "661968dc03bd19b132f1",
-    "url": "/static/css/main.2f226588.chunk.css"
+    "revision": "0c2fb52d15a57d77b84c",
+    "url": "/static/css/main.554d0a44.chunk.css"
   },
   {
     "revision": "07c0c76244400291de53",
@@ -16,16 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a5ac3209.chunk.js.LICENSE"
   },
   {
-    "revision": "661968dc03bd19b132f1",
-    "url": "/static/js/main.d4a17ffe.chunk.js"
+    "revision": "0c2fb52d15a57d77b84c",
+    "url": "/static/js/main.939cb257.chunk.js"
   },
   {
     "revision": "dda1d03d02a1431c3829",
     "url": "/static/js/runtime-main.18fe50c1.js"
   },
   {
-    "revision": "d58304cfb5514429598ea5f246cac489",
-    "url": "/static/media/Resume.d58304cf.pdf"
+    "revision": "61904ab75c4c022b98646b286eb5c2be",
+    "url": "/static/media/Resume.61904ab7.pdf"
+  },
+  {
+    "revision": "9c4ea5c06f70fa6090f74c0fdf979f3a",
+    "url": "/static/media/arctic-miner.9c4ea5c0.PNG"
   },
   {
     "revision": "03b5a587ff7152413b483d4734871bba",
