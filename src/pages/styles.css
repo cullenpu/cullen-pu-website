@@ -77,6 +77,20 @@ i:hover {
 }
 
 /* projects styles */
+@media (min-width: 800px) {
+  .project-column {
+    display: inline-block;
+    max-width: 50%;
+    vertical-align: top;
+  }
+}
+
+@media (max-width: 800px) {
+  .project-column {
+    padding: 0 !important;
+  }
+}
+
 .card {
   border-color: rgb(34, 34, 34);
 }
