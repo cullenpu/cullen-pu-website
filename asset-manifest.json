@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e80fc808.chunk.css",
-    "main.js": "/static/js/main.ca1df5e4.chunk.js",
-    "main.js.map": "/static/js/main.ca1df5e4.chunk.js.map",
+    "main.js": "/static/js/main.f6f93563.chunk.js",
+    "main.js.map": "/static/js/main.f6f93563.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.18fe50c1.js",
     "runtime-main.js.map": "/static/js/runtime-main.18fe50c1.js.map",
     "static/js/2.59582355.chunk.js": "/static/js/2.59582355.chunk.js",
     "static/js/2.59582355.chunk.js.map": "/static/js/2.59582355.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.985348ffecdd5d308be09ef9a3afbf66.js": "/precache-manifest.985348ffecdd5d308be09ef9a3afbf66.js",
+    "precache-manifest.46091f5b24a4f01ecb073651d9b5b7f3.js": "/precache-manifest.46091f5b24a4f01ecb073651d9b5b7f3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e80fc808.chunk.css.map": "/static/css/main.e80fc808.chunk.css.map",
     "static/js/2.59582355.chunk.js.LICENSE": "/static/js/2.59582355.chunk.js.LICENSE",
-    "static/media/Resume.pdf": "/static/media/Resume.f9f12928.pdf",
     "static/media/arctic-miner.PNG": "/static/media/arctic-miner.9c4ea5c0.PNG",
     "static/media/styles.css": "/static/media/boston.03b5a587.jpg",
     "static/media/image1.jpg": "/static/media/image1.04f3b3a3.jpg",
@@ -26,6 +25,6 @@
     "static/js/runtime-main.18fe50c1.js",
     "static/js/2.59582355.chunk.js",
     "static/css/main.e80fc808.chunk.css",
-    "static/js/main.ca1df5e4.chunk.js"
+    "static/js/main.f6f93563.chunk.js"
   ]
 }
