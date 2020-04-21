@@ -1,0 +1,21 @@
+.card {
+  border-color: rgb(34, 34, 34);
+}
+
+.card-subtitle {
+  white-space: pre-wrap;
+}
+
+.card-body {
+  background-color: rgb(34, 34, 34);
+}
+
+.card-title,
+.card-text {
+  color: rgb(204, 204, 204);
+}
+
+.project-btn {
+  margin-right: 1rem;
+  color: rgb(204, 204, 204);
+}

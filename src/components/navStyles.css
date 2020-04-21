@@ -2,10 +2,19 @@
   background-color: rgb(34, 34, 34);
 }
 
+.home-button {
+  all: unset
+}
+
+.home-button:focus {
+  outline: none;
+}
+
 .nav-item {
   margin: 0 0.3rem;
   padding: 1rem 0 0 0;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .copyright {

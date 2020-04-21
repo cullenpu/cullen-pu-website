@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 
-import Nav from "./components/nav";
-import Home from "./pages/home";
-import About from "./pages/about";
-import Projects from "./pages/projects";
+import Nav from "./components/Nav";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
