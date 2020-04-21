@@ -50,7 +50,7 @@ const Nav = (props) => {
               <p>projects</p>
             </Link>
             <a
-              href={require("../resources/resume/Resume.pdf")}
+              href="https://drive.google.com/file/d/1ACOj-AIfpb-f0pXT0Wjdv7h5HczYNfZI/view?usp=sharing"
               className="nav-item nav-link"
               target="_blank"
               rel="noopener noreferrer"

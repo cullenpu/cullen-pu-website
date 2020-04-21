@@ -11,7 +11,7 @@ const politicGame = {
 };
 
 const arcticMiner = {
-  subtitle: `Made for UofTHacks VII\n\nWinner: ChainSafe’s Build With Blockchain Award`,
+  subtitle: `Made for UofTHacks VII\nWinner: ChainSafe’s Build With Blockchain Award`,
   description: `An application allowing users to collect penguins on an ethereum
   blockchain, helping users visualize and understand the concept of blockchain.`,
 };
