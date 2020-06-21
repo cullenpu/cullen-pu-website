@@ -4,8 +4,6 @@ import CarouselItem from "../components/CarouselItem.jsx";
 import "./styles.css";
 import aboutText from "../resources/json/about/aboutText.json";
 
-// TODO: Add 5th image
-
 const About = () => {
   return (
     <div className="container" id="about">
@@ -40,6 +38,12 @@ const About = () => {
                 src={require("../resources/images/portraits/image4.jpg")}
                 photographer="Mareck Damiano"
                 link="https://www.instagram.com/mareckd/"
+              />
+              <CarouselItem
+                className="carousel-item"
+                src={require("../resources/images/portraits/image5.jpg")}
+                photographer="Cody Tu"
+                link="https://codytu.com/"
               />
             </div>
             <a
