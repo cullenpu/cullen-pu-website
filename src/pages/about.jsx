@@ -1,18 +1,10 @@
 import React from "react";
 
 import CarouselItem from "../components/CarouselItem.jsx";
-
 import "./styles.css";
+import aboutText from "../resources/json/about/aboutText.json";
 
-const aboutMe = `I am a second year computer science and statistics student \
-attending the University of Toronto, previously from Boston.
-
-This summer, I wrote code for LLX Solutions, a pharmaceutical company in Waltham, \
-Massachusetts. I also serve as a Department of Computer Science Ambassador at the \
-University of Toronto.
-
-I have a diverse collection of interests which include boba, clothing, and \
-photography - feel free to check out my photography portfolio linked above!`;
+// TODO: Add 5th image
 
 const About = () => {
   return (
@@ -27,25 +19,25 @@ const About = () => {
             <div className="carousel-inner">
               <CarouselItem
                 className="carousel-item active"
-                src={require("../resources/portraits/image1.jpg")}
+                src={require("../resources/images/portraits/image1.jpg")}
                 photographer="Cody Tu"
                 link="https://codytu.com/"
               />
               <CarouselItem
                 className="carousel-item"
-                src={require("../resources/portraits/image2.jpg")}
+                src={require("../resources/images/portraits/image2.jpg")}
                 photographer="Cody Tu"
                 link="https://codytu.com/"
               />
               <CarouselItem
                 className="carousel-item"
-                src={require("../resources/portraits/image3.jpg")}
+                src={require("../resources/images/portraits/image3.jpg")}
                 photographer="Cody Tu"
                 link="https://codytu.com/"
               />
               <CarouselItem
                 className="carousel-item"
-                src={require("../resources/portraits/image4.jpg")}
+                src={require("../resources/images/portraits/image4.jpg")}
                 photographer="Mareck Damiano"
                 link="https://www.instagram.com/mareckd/"
               />
@@ -78,7 +70,7 @@ const About = () => {
         </div>
         <div className="col-md">
           <h1 className="section text-center">about</h1>
-          <p className="about-me">{aboutMe}</p>
+          <p className="about-me">{aboutText.about}</p>
         </div>
       </div>
     </div>

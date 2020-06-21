@@ -22,7 +22,7 @@ const ProjectButton = ({ link, site }) => {
 const ProjectCard = ({ src, name, subtitle, description, github, devpost }) => {
   return (
     <div className="card mb-4">
-      <img className="card-img-top" src={src} alt={name} />
+      <img className="card-img-top" src={require(`../resources/images/projects/${src}`)} alt={name} />
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <h6 className="card-subtitle text-secondary mb-2">{subtitle}</h6>

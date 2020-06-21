@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "src": "politic-game.jpg",
+      "name": "Politic Game",
+      "subtitle": null,
+      "description": "An Android application consisting of three minigames meant to serve as a satirical politician simulator with support for user login, leaderboards, and unlockable sprites.",
+      "github": "https://github.com/Cullenpu/politic-game",
+      "devpost": null
+    },
+
+    {
+      "src": "arctic-miner.PNG",
+      "name": "Arctic Miner",
+      "subtitle": "Made for UofTHacks VII\nWinner: ChainSafe’s Build With Blockchain Award",
+      "description": "An application allowing users to collect penguins on an ethereum blockchain, helping users visualize and understand the concept of blockchain.",
+      "github": "https://github.com/Cullenpu/arctic-miner",
+      "devpost": "https://devpost.com/software/blockchaingame"
+    },
+
+    {
+      "src": "meal-prep-4-U.png",
+      "name": "Meal Prep 4 U",
+      "subtitle": "Made for BostonHacks 2019",
+      "description": "A web application designed to help university students meal prep by generating ingredients based on user's ingredients and preferences to provide healthy, cost-reducing meals.",
+      "github": "https://github.com/Cullenpu/meal-prep-4-u",
+      "devpost": "https://devpost.com/software/meal-prep-4-u"
+    }
+  ]
+}
