@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.e80fc808.chunk.css",
-    "main.js": "/static/js/main.f6f93563.chunk.js",
-    "main.js.map": "/static/js/main.f6f93563.chunk.js.map",
+    "main.css": "/static/css/main.24296861.chunk.css",
+    "main.js": "/static/js/main.fd071fa6.chunk.js",
+    "main.js.map": "/static/js/main.fd071fa6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.18fe50c1.js",
     "runtime-main.js.map": "/static/js/runtime-main.18fe50c1.js.map",
-    "static/js/2.59582355.chunk.js": "/static/js/2.59582355.chunk.js",
-    "static/js/2.59582355.chunk.js.map": "/static/js/2.59582355.chunk.js.map",
+    "static/js/2.2a101e90.chunk.js": "/static/js/2.2a101e90.chunk.js",
+    "static/js/2.2a101e90.chunk.js.map": "/static/js/2.2a101e90.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.46091f5b24a4f01ecb073651d9b5b7f3.js": "/precache-manifest.46091f5b24a4f01ecb073651d9b5b7f3.js",
+    "precache-manifest.467861ed1739098bbe586095f03c8dc4.js": "/precache-manifest.467861ed1739098bbe586095f03c8dc4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e80fc808.chunk.css.map": "/static/css/main.e80fc808.chunk.css.map",
-    "static/js/2.59582355.chunk.js.LICENSE": "/static/js/2.59582355.chunk.js.LICENSE",
+    "static/css/main.24296861.chunk.css.map": "/static/css/main.24296861.chunk.css.map",
+    "static/js/2.2a101e90.chunk.js.LICENSE": "/static/js/2.2a101e90.chunk.js.LICENSE",
     "static/media/arctic-miner.PNG": "/static/media/arctic-miner.9c4ea5c0.PNG",
     "static/media/styles.css": "/static/media/boston.03b5a587.jpg",
     "static/media/image1.jpg": "/static/media/image1.04f3b3a3.jpg",
     "static/media/image2.jpg": "/static/media/image2.00c0a0b5.jpg",
     "static/media/image3.jpg": "/static/media/image3.1f729e95.jpg",
     "static/media/image4.jpg": "/static/media/image4.936c8b33.jpg",
+    "static/media/image5.jpg": "/static/media/image5.62e8d06e.jpg",
     "static/media/meal-prep-4-U.png": "/static/media/meal-prep-4-U.8bd69941.png",
     "static/media/politic-game.jpg": "/static/media/politic-game.594c1cdb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.18fe50c1.js",
-    "static/js/2.59582355.chunk.js",
-    "static/css/main.e80fc808.chunk.css",
-    "static/js/main.f6f93563.chunk.js"
+    "static/js/2.2a101e90.chunk.js",
+    "static/css/main.24296861.chunk.css",
+    "static/js/main.fd071fa6.chunk.js"
   ]
 }
