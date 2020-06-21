@@ -3,7 +3,7 @@
 }
 
 .home-button {
-  all: unset
+  all: unset;
 }
 
 .home-button:focus {
