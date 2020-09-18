@@ -26,6 +26,10 @@
   font-size: 4vmin;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 .links {
   position: absolute;
   margin: 0 0 0 2rem;

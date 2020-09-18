@@ -32,7 +32,7 @@ const Home = () => {
           <i className="fab fa-linkedin text-light"></i>
         </a>
         <a
-          href="https://github.com/Cullenpu/"
+          href="https://github.com/cullenpu/"
           target="_blank"
           rel="noopener noreferrer"
         >

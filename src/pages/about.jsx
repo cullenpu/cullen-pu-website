@@ -36,12 +36,18 @@ const About = () => {
               <CarouselItem
                 className="carousel-item"
                 src={require("../resources/images/portraits/image4.jpg")}
+                photographer="Cody Tu"
+                link="https://codytu.com/"
+              />
+              <CarouselItem
+                className="carousel-item"
+                src={require("../resources/images/portraits/image5.jpg")}
                 photographer="Mareck Damiano"
                 link="https://www.instagram.com/mareckd/"
               />
               <CarouselItem
                 className="carousel-item"
-                src={require("../resources/images/portraits/image5.jpg")}
+                src={require("../resources/images/portraits/image6.jpg")}
                 photographer="Cody Tu"
                 link="https://codytu.com/"
               />
