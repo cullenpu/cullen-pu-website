@@ -1,0 +1,32 @@
+[
+  {
+    "file": "image1.jpg",
+    "photographer": "Cody Tu",
+    "link": "https://codytu.com/"
+  },
+  {
+    "file": "image2.jpg",
+    "photographer": "Zedd Zhu",
+    "link": "https://zeddzhu.com/"
+  },
+  {
+    "file": "image3.jpg",
+    "photographer": "Cody Tu",
+    "link": "https://codytu.com/"
+  },
+  {
+    "file": "image4.jpg",
+    "photographer": "Cody Tu",
+    "link": "https://codytu.com/"
+  },
+  {
+    "file": "image5.jpg",
+    "photographer": "Mareck Damiano",
+    "link": "https://www.instagram.com/mareckd/"
+  },
+  {
+    "file": "image6.jpg",
+    "photographer": "Cody Tu",
+    "link": "https://codytu.com/"
+  }
+]

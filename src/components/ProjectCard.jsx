@@ -2,7 +2,7 @@ import React from "react";
 
 import "./projectCardStyles.css";
 
-const ProjectButton = ({ link, site }) => {
+const ProjectButton = ({ site, link }) => {
   if (link) {
     return (
       <a
@@ -19,16 +19,21 @@ const ProjectButton = ({ link, site }) => {
   }
 };
 
-const ProjectCard = ({ src, name, subtitle, description, github, devpost }) => {
+const ProjectCard = ({ src, name, subtitle, description, sites }) => {
   return (
     <div className="card mb-4">
-      <img className="card-img-top" src={require(`../resources/images/projects/${src}`)} alt={name} />
+      <img
+        className="card-img-top"
+        src={require(`../resources/images/projects/${src}`)}
+        alt={name}
+      />
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <h6 className="card-subtitle text-secondary mb-2">{subtitle}</h6>
         <p className="card-text">{description}</p>
-        <ProjectButton link={github} site="github" />
-        <ProjectButton link={devpost} site="devpost" />
+        {sites.map((site) => {
+          return <ProjectButton site={site.site} link={site.link} />;
+        })}
       </div>
     </div>
   );

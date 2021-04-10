@@ -72,7 +72,9 @@ const Nav = (props) => {
         </div>
       </nav>
       {props.children}
-      <p className="copyright text-center">made by cullen pu © 2020</p>
+      <p className="copyright text-center">
+        made by cullen pu © {new Date().getFullYear()}
+      </p>
     </div>
   );
 };

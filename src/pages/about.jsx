@@ -1,8 +1,9 @@
 import React from "react";
 
-import CarouselItem from "../components/CarouselItem.jsx";
+import CarouselItem from "components/CarouselItem.jsx";
 import "./styles.css";
-import aboutText from "../resources/json/about/aboutText.json";
+import aboutImages from "resources/json/about/aboutImages.json";
+import aboutText from "resources/json/about/aboutText.json";
 
 const About = () => {
   return (
@@ -15,42 +16,18 @@ const About = () => {
             data-ride="carousel"
           >
             <div className="carousel-inner">
-              <CarouselItem
-                className="carousel-item active"
-                src={require("../resources/images/portraits/image1.jpg")}
-                photographer="Cody Tu"
-                link="https://codytu.com/"
-              />
-              <CarouselItem
-                className="carousel-item"
-                src={require("../resources/images/portraits/image2.jpg")}
-                photographer="Cody Tu"
-                link="https://codytu.com/"
-              />
-              <CarouselItem
-                className="carousel-item"
-                src={require("../resources/images/portraits/image3.jpg")}
-                photographer="Cody Tu"
-                link="https://codytu.com/"
-              />
-              <CarouselItem
-                className="carousel-item"
-                src={require("../resources/images/portraits/image4.jpg")}
-                photographer="Cody Tu"
-                link="https://codytu.com/"
-              />
-              <CarouselItem
-                className="carousel-item"
-                src={require("../resources/images/portraits/image5.jpg")}
-                photographer="Mareck Damiano"
-                link="https://www.instagram.com/mareckd/"
-              />
-              <CarouselItem
-                className="carousel-item"
-                src={require("../resources/images/portraits/image6.jpg")}
-                photographer="Cody Tu"
-                link="https://codytu.com/"
-              />
+              {aboutImages.map((img, i) => {
+                return (
+                  <CarouselItem
+                    className={
+                      i === 0 ? "carousel-item active" : "carousel-item"
+                    }
+                    src={require(`resources/images/portraits/${img.file}`)}
+                    photographer={img.photographer}
+                    link={img.link}
+                  />
+                );
+              })}
             </div>
             <a
               className="carousel-control-prev"

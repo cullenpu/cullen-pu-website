@@ -1,30 +1,50 @@
 {
-  "items": [
-    {
-      "src": "politic-game.jpg",
-      "name": "Politic Game",
-      "subtitle": null,
-      "description": "An Android application consisting of three minigames meant to serve as a satirical politician simulator with support for user login, leaderboards, and unlockable sprites.",
-      "github": "https://github.com/cullenpu/politic-game",
-      "devpost": null
-    },
-
-    {
-      "src": "arctic-miner.PNG",
-      "name": "Arctic Miner",
-      "subtitle": "Made for UofTHacks VII\nWinner: ChainSafe’s Build With Blockchain Award",
-      "description": "An application allowing users to collect penguins on an ethereum blockchain, helping users visualize and understand the concept of blockchain.",
-      "github": "https://github.com/cullenpu/arctic-miner",
-      "devpost": "https://devpost.com/software/blockchaingame"
-    },
-
-    {
-      "src": "meal-prep-4-U.png",
-      "name": "Meal Prep 4 U",
-      "subtitle": "Made for BostonHacks 2019",
-      "description": "A web application designed to help university students meal prep by generating ingredients based on user's ingredients and preferences to provide healthy, cost-reducing meals.",
-      "github": "https://github.com/cullenpu/meal-prep-4-u",
-      "devpost": "https://devpost.com/software/meal-prep-4-u"
-    }
-  ]
+  "simplemlp": {
+    "src": "simplemlp.jpg",
+    "name": "simpleMLP",
+    "subtitle": null,
+    "description": "R package consisting of a multilayer perceptron neural network implementation, featuring 2 ReLU hidden layers, and achieving 96% test accuracy on MNIST.",
+    "sites": [
+      { "site": "github", "link": "https://github.com/Cullenpu/simpleMLP" },
+      { "site": "CRAN", "link": "https://CRAN.R-project.org/package=simpleMLP" }
+    ]
+  },
+  "arctic-miner": {
+    "src": "arctic-miner.PNG",
+    "name": "Arctic Miner",
+    "subtitle": "Made for UofTHacks VII\nWinner: ChainSafe’s Build With Blockchain Award",
+    "description": "Application allowing users to collect penguins on an ethereum blockchain, helping users visualize and understand the concept of blockchain.",
+    "sites": [
+      { "site": "github", "link": "https://github.com/cullenpu/arctic-miner" },
+      {
+        "site": "devpost",
+        "link": "https://devpost.com/software/blockchaingame"
+      }
+    ]
+  },
+  "politician-game": {
+    "src": "politician-game.jpg",
+    "name": "Politician Game",
+    "subtitle": null,
+    "description": "Satirical android application consisting of three minigames simulating a political campaign with support for user login, leaderboards, and unlockable sprites.",
+    "sites": [
+      {
+        "site": "github",
+        "link": "https://github.com/cullenpu/politician-game"
+      }
+    ]
+  },
+  "meal-prep-4-u": {
+    "src": "meal-prep-4-U.png",
+    "name": "Meal Prep 4 U",
+    "subtitle": "Made for BostonHacks 2019",
+    "description": "Web application designed to help university students meal prep by generating ingredients based on user's ingredients and preferences to provide healthy, cost-reducing meals.",
+    "sites": [
+      { "site": "github", "link": "https://github.com/cullenpu/meal-prep-4-u" },
+      {
+        "site": "devpost",
+        "link": "https://devpost.com/software/meal-prep-4-u"
+      }
+    ]
+  }
 }
