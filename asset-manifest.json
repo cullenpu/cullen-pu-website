@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.aa5b1f88.chunk.css",
-    "main.js": "/static/js/main.27fc60eb.chunk.js",
-    "main.js.map": "/static/js/main.27fc60eb.chunk.js.map",
+    "main.js": "/static/js/main.342dc446.chunk.js",
+    "main.js.map": "/static/js/main.342dc446.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.18fe50c1.js",
     "runtime-main.js.map": "/static/js/runtime-main.18fe50c1.js.map",
     "static/js/2.628c50bb.chunk.js": "/static/js/2.628c50bb.chunk.js",
     "static/js/2.628c50bb.chunk.js.map": "/static/js/2.628c50bb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bfe17adcb12d3070b45cddfbb840fee4.js": "/precache-manifest.bfe17adcb12d3070b45cddfbb840fee4.js",
+    "precache-manifest.1d4aec8a2f54812358f4ec89fb60f9f8.js": "/precache-manifest.1d4aec8a2f54812358f4ec89fb60f9f8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.aa5b1f88.chunk.css.map": "/static/css/main.aa5b1f88.chunk.css.map",
     "static/js/2.628c50bb.chunk.js.LICENSE": "/static/js/2.628c50bb.chunk.js.LICENSE",
@@ -22,13 +22,13 @@
     "static/media/image6.jpg": "/static/media/image6.62e8d06e.jpg",
     "static/media/jinx.svg": "/static/media/jinx.6d5bc9b4.svg",
     "static/media/meal-prep-4-U.png": "/static/media/meal-prep-4-U.8bd69941.png",
-    "static/media/politic-game.jpg": "/static/media/politic-game.594c1cdb.jpg",
+    "static/media/politician-game.jpg": "/static/media/politician-game.594c1cdb.jpg",
     "static/media/simplemlp.jpg": "/static/media/simplemlp.88ecca5a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.18fe50c1.js",
     "static/js/2.628c50bb.chunk.js",
     "static/css/main.aa5b1f88.chunk.css",
-    "static/js/main.27fc60eb.chunk.js"
+    "static/js/main.342dc446.chunk.js"
   ]
 }

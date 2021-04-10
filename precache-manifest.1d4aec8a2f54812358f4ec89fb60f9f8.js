@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6af327dd6aea6969178a7d1754303c18",
+    "revision": "c03c70e87e93400e75491c43ebc7c3b3",
     "url": "/index.html"
   },
   {
-    "revision": "9b76068631d63914a300",
+    "revision": "412f9b90b84331efa24e",
     "url": "/static/css/main.aa5b1f88.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.628c50bb.chunk.js.LICENSE"
   },
   {
-    "revision": "9b76068631d63914a300",
-    "url": "/static/js/main.27fc60eb.chunk.js"
+    "revision": "412f9b90b84331efa24e",
+    "url": "/static/js/main.342dc446.chunk.js"
   },
   {
     "revision": "dda1d03d02a1431c3829",
@@ -65,7 +65,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "594c1cdb4a8e44e7a313c2224e038389",
-    "url": "/static/media/politic-game.594c1cdb.jpg"
+    "url": "/static/media/politician-game.594c1cdb.jpg"
   },
   {
     "revision": "88ecca5ae563c59ff1433ae2c1b7a0be",
