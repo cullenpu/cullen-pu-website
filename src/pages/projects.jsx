@@ -9,9 +9,12 @@ const Projects = () => {
     <div className="container" id="projects">
       <h1 className="section text-center">projects</h1>
       <div className="project-column pr-3">
+        <ProjectCard {...projectsText["jinx"]} />
+        <ProjectCard {...projectsText["covidnn"]} />
         <ProjectCard {...projectsText["politician-game"]} />
       </div>
       <div className="project-column pl-3">
+        <ProjectCard {...projectsText["drift"]} />
         <ProjectCard {...projectsText["simplemlp"]} />
         <ProjectCard {...projectsText["arctic-miner"]} />
         <ProjectCard {...projectsText["meal-prep-4-u"]} />

@@ -19,6 +19,7 @@ const About = () => {
               {aboutImages.map((img, i) => {
                 return (
                   <CarouselItem
+                    key={i}
                     className={
                       i === 0 ? "carousel-item active" : "carousel-item"
                     }

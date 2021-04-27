@@ -31,8 +31,8 @@ const ProjectCard = ({ src, name, subtitle, description, sites }) => {
         <h5 className="card-title">{name}</h5>
         <h6 className="card-subtitle text-secondary mb-2">{subtitle}</h6>
         <p className="card-text">{description}</p>
-        {sites.map((site) => {
-          return <ProjectButton site={site.site} link={site.link} />;
+        {sites.map((site, i) => {
+          return <ProjectButton key={i} site={site.site} link={site.link} />;
         })}
       </div>
     </div>

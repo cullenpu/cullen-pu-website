@@ -1,9 +1,49 @@
 {
+  "covidnn": {
+    "src": "covidnn.png",
+    "name": "CovidNN",
+    "subtitle": null,
+    "description": "An Application of Convolutional Neural Networks for COVID-19 CT Scan Classification. Pu, C., Shih, A., & Cai, S. (2020).",
+    "sites": [
+      { "site": "paper", "link": "https://www.overleaf.com/read/phxxyvtdcypm" },
+      {
+        "site": "github",
+        "link": "https://github.com/Cullenpu/CovidNN"
+      }
+    ]
+  },
+  "jinx": {
+    "src": "jinx.svg",
+    "name": "Jinx",
+    "subtitle": null,
+    "description": "An all in one social platform created to help students and young adults streamline their job search by tracking their applications, postings, companies, and connections.",
+    "sites": [
+      { "site": "jinx", "link": "https://jinx-app-209.herokuapp.com" },
+      {
+        "site": "github",
+        "link": "https://github.com/Cullenpu/jinx"
+      }
+    ]
+  },
+  "drift": {
+    "src": "drift.svg",
+    "name": "Drift",
+    "subtitle": null,
+    "description": "A lightweight, dependency-free JavaScript carousel which can be used standalone or as a background.",
+    "sites": [
+      { "site": "drift", "link": "https://driftjs.herokuapp.com" },
+      {
+        "site": "github",
+        "link": "https://github.com/Cullenpu/drift"
+      },
+      { "site": "NPM", "link": "https://www.npmjs.com/package/@cullenpu/drift" }
+    ]
+  },
   "simplemlp": {
     "src": "simplemlp.jpg",
     "name": "simpleMLP",
     "subtitle": null,
-    "description": "R package consisting of a multilayer perceptron neural network implementation, featuring 2 ReLU hidden layers, and achieving 96% test accuracy on MNIST.",
+    "description": "An R package consisting of a multilayer perceptron neural network implementation, featuring 2 ReLU hidden layers, and achieving 96% test accuracy on MNIST.",
     "sites": [
       { "site": "github", "link": "https://github.com/Cullenpu/simpleMLP" },
       { "site": "CRAN", "link": "https://CRAN.R-project.org/package=simpleMLP" }
@@ -13,7 +53,7 @@
     "src": "arctic-miner.PNG",
     "name": "Arctic Miner",
     "subtitle": "Made for UofTHacks VII\nWinner: ChainSafe’s Build With Blockchain Award",
-    "description": "Application allowing users to collect penguins on an ethereum blockchain, helping users visualize and understand the concept of blockchain.",
+    "description": "A web application allowing users to visualize the concept of blockchain by collecting penguins on an ethereum blockchain.",
     "sites": [
       { "site": "github", "link": "https://github.com/cullenpu/arctic-miner" },
       {
@@ -26,7 +66,7 @@
     "src": "politician-game.jpg",
     "name": "Politician Game",
     "subtitle": null,
-    "description": "Satirical android application consisting of three minigames simulating a political campaign with support for user login, leaderboards, and unlockable sprites.",
+    "description": "A satirical android game which uses three minigames to simulate a political campaign with support for user login, leaderboards, and unlockable sprites.",
     "sites": [
       {
         "site": "github",
@@ -38,7 +78,7 @@
     "src": "meal-prep-4-U.png",
     "name": "Meal Prep 4 U",
     "subtitle": "Made for BostonHacks 2019",
-    "description": "Web application designed to help university students meal prep by generating ingredients based on user's ingredients and preferences to provide healthy, cost-reducing meals.",
+    "description": "A web application promoting healthy eating habits through meal preparation by generating recipes based on user's ingredients and preferences.",
     "sites": [
       { "site": "github", "link": "https://github.com/cullenpu/meal-prep-4-u" },
       {
