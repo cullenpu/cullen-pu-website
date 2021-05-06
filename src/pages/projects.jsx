@@ -12,12 +12,13 @@ const Projects = () => {
         <ProjectCard {...projectsText["jinx"]} />
         <ProjectCard {...projectsText["covidnn"]} />
         <ProjectCard {...projectsText["politician-game"]} />
+        <ProjectCard {...projectsText["meal-prep-4-u"]} />
       </div>
       <div className="project-column pl-3">
         <ProjectCard {...projectsText["drift"]} />
+        <ProjectCard {...projectsText["image-ocean"]} />
         <ProjectCard {...projectsText["simplemlp"]} />
         <ProjectCard {...projectsText["arctic-miner"]} />
-        <ProjectCard {...projectsText["meal-prep-4-u"]} />
       </div>
     </div>
   );

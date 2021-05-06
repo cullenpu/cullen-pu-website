@@ -1,4 +1,17 @@
 {
+  "image-ocean": {
+    "src": "image-ocean.svg",
+    "name": "Image Ocean",
+    "subtitle": null,
+    "description": "An online image repository allowing users to upload public images into a centralized gallery or private images that only they can see.",
+    "sites": [
+      { "site": "image ocean", "link": "https://imageocean.herokuapp.com" },
+      {
+        "site": "github",
+        "link": "https://github.com/Cullenpu/image-ocean"
+      }
+    ]
+  },
   "covidnn": {
     "src": "covidnn.png",
     "name": "CovidNN",
