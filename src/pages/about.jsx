@@ -23,7 +23,7 @@ const About = () => {
                     className={
                       i === 0 ? "carousel-item active" : "carousel-item"
                     }
-                    src={require(`resources/images/portraits/${img.file}`)}
+                    src={require(`resources/images/portraits/${img.file}`).default}
                     photographer={img.photographer}
                     link={img.link}
                   />

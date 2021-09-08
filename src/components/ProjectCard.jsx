@@ -24,7 +24,7 @@ const ProjectCard = ({ src, name, subtitle, description, sites }) => {
     <div className="card mb-4">
       <img
         className="card-img-top"
-        src={require(`../resources/images/projects/${src}`)}
+        src={require(`../resources/images/projects/${src}`).default}
         alt={name}
       />
       <div className="card-body">
